@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+  
+        <meta name="description" content="Hacking Tools for Cyber Security">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+        <title>Web Site</title>
+        <link rel="icon" href="https://raw.githubusercontent.com/issamiso/iconweb/main/image/icon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Young+Serif&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <style>
+        * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: 'Roboto', sans-serif;
+                font-family: 'Rubik', sans-serif;
+                 
+                
+            }
+        .button-container {
+              text-align:right;
+              margin-top:1px; 
+              
+              position: absolute;
+              right: 2%;
+              top: 1px;
+              width:97%;
+            }
+        .button {
+            
+              
+              margin-top: 1px;
+              font-size: 16px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              background-color: transparent;
+              cursor: pointer;
+              border: none;
+            }
+        .button:hover {
+              background-color: transparent;
+            }
+        .hidden-options {
+              display: none;
+              
+              width: 100%;
+              margin-right: auto;
+              margin-left: auto;
+              
+            }
+        .sub-button {
+              display: block;
+              position: absolute;
+             
+              padding: 5px;
+              border: none;
+              text-decoration: none;
+              width: 25%;
+              margin-right: auto;
+              margin-left:auto;
+              left: 37%;
+              color: black;
+              
+              border-radius: 5px;
+              margin-top: 10px;
+              align: center;
+            }
+        body{
+            
+            
+                
+            }
+        #dni{
+                display: flex;
+                align-items: center;
+                margin-top: 1px;
+                box-shadow: 0 0 10px #373737;
+                border-radius:10px;
+                width: 97%;
+                height: 60px;
+                margin-right: auto;
+                margin-left: auto;
+            
+            }
+        #img1{
+                
+                width: 18%;
+            }
+        #log{
+            text-align: center;
+            align:center;
+        }
+        #options1{
+            width: 45px;
+            
+            border-radius: 5px;
+            
+            
+        }
+        a:hover{
+            color:black;
+            font-size: 20px;
+            
+            border-radius: 10px;
+            box-shadow: 0 0 5px #00fb00;
+        }
+        #options{ 
+            margin-top: 20px;
+            background-color: white;
+            border-radius: 15px;
+            width: 90%;
+            box-shadow: 0 0 5px #07dc00;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            color: black;
+        }
+        #body1{
+            margin-top: 40px;
+            
+            text-align: left;
+            width: 99%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        #body1 h2{
+            margin-left: 10px;
+            margin-bottom: 1px;
+        
+            
+        }
+        #body1 p{
+            margin: 10px;
+            padding: 5px;
+        }
+        #div2{
+            /*box-shadow: 0 0 10px #2b2b2b;*/
+            
+            width: 95%;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+        
+        }
+        #img2{
+            margin: 10px;
+            border-radius: 10px;
+            width: 95%;
+            box-shadow: 0 0 15px #2d2d2d;
+            background-color:#2e2e2e;
+        }
+        #h22{
+            display: none;
+            border: solid 2px red;
+            text-align: center;
+            margin-top: 20px;
+            color:white;
+            font-family: 'Anton', sans-serif;
+            
+        }
+        #end{
+            margin-top: 200px;
+            
+        }
+        #dniend{
+            margin-top: 1500px;
+            box-shadow: 0 0 10px #0ab100;
+            border-radius:10px;
+            width: 97%;
+            height: 50px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 10px;
+            text-align: center;
+            padding-top: 10px;
+            
+        }
+        #h5end{
+            
+            
+        }
+        #scol{
+            width: 99%;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+            
+        }
+        #body1{
+            text-align: center;
+        }
+        #h44{
+            font-size: 25px;
+        }
+        #div2{
+            background-color: white;
+            
+        }
+        #h44:hover{
+            font-size: 30px;
+            color:#0ab100;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 900;
+            
+        }
+        #parg{
+            text-align:center;
+        }
+        #parg:hover{
+            font-size: 20px;
+            font-family: 'Tilt Neon', sans-serif;
+        }
+        #img2:hover{
+            width: 75%;
+            box-shadow:0 0 10px green;
+        }
+        #img2{
+            width: 70%;
+        }
+        #dnih{
+            color: white;
+            margin-bottom: 10px;
+            padding: 50px;
+        }
+        .image-container img {
+         
+             
+              border-radius: 50%;
+              position: absolute;
+              transform: translate(150%, 10%);
+              width: 25%;
+              box-shadow: 0 0 50px red;
+              
+              
+              
+              transition: opacity 1s; / تأثير تدرجي للشفافية لمدة ثانية واحدة /
+            }
+            
+            .second-image {
+              opacity: 0; / ابدأ الصورة الثانية بشفافية كاملة (غير مرئية) /
+              
+                
+            }
+            
+            .image-container:hover .first-image {
+              opacity: 0; / عند مرور الماوس، قم بتغيير الشفافية للصورة الأولى إلى 0 /
+            }
+            
+            .image-container:hover .second-image {
+              
+              opacity: 1; / عند مرور الماوس، قم بتغيير الشفافية للصورة الثانية إلى 1 /
+            } 
+        .image2 img {
+         
+             
+              border-radius: 50%;
+              position: absolute;
+              transform: translate(20%, 170%);
+              width: 20%;
+              box-shadow: 0 0 15px rgb(40, 250, 40);
+
+              
+              
+              
+              transition: opacity 1s; / تأثير تدرجي للشفافية لمدة ثانية واحدة /
+            }
+            
+        #issam {
+              opacity: 0; / ابدأ الصورة الثانية بشفافية كاملة (غير مرئية) /
+              
+                
+            }
+            
+        .image2:hover #qissam {
+              opacity: 0; / عند مرور الماوس، قم بتغيير الشفافية للصورة الأولى إلى 0 /
+            }
+            
+            .image2:hover #issam {
+              
+              opacity: 1; / عند مرور الماوس، قم بتغيير الشفافية للصورة الثانية إلى 1 /
+            }
+         
+        .image3 img {
+         
+            box-shadow: 0 0 15px rgb(40, 250, 40);
+         border-radius: 50%;
+         position: absolute;
+         transform: translate(200%, 170%);
+         width: 20%;
+
+         
+         
+         
+         transition: opacity 1s; / تأثير تدرجي للشفافية لمدة ثانية واحدة /
+       }
+       
+    #issam {
+         opacity: 0; / ابدأ الصورة الثانية بشفافية كاملة (غير مرئية) /
+         
+           
+       }
+       
+    .image3:hover #qissam {
+            opacity: 0; / عند مرور الماوس، قم بتغيير الشفافية للصورة الأولى إلى 0 /
+        }
+        
+    .image3:hover #issam {
+            
+        opacity: 1; / عند مرور الماوس، قم بتغيير الشفافية للصورة الثانية إلى 1 /
+    }
+        
+    .image4 img {    
+        border-radius: 50%;
+         position: absolute;
+         transform: translate(380%, 170%);
+         width: 20%;
+         box-shadow: 0 0 15px rgb(40, 250, 40);
+    }
+    .image4:hover #qissam {
+        opacity: 0; / عند مرور الماوس، قم بتغيير الشفافية للصورة الأولى إلى 0 /
+     }
+        
+    .image4:hover #issam {
+            
+        opacity: 1; / عند مرور الماوس، قم بتغيير الشفافية للصورة الثانية إلى 1 /
+     }
+        
+     .names{
+        border: 2px solid red;
+        display: flex;
+        margin-top: 750px;
+        text-align: center;
+     }
+     
+    .issamhh{
+        border: 2px solid green;
+        margin-left: 45px;
+    }
+    .dnihh{
+        border: 2px solid green;
+        margin-left: 155px;
+    }
+    .alahh{
+        border: 2px solid green;
+        margin-left: 160px;
+        
+    }
+         
+        </style>
+    </head>
+    <body>
+        <div id="dni">
+            <img id="img1" src="image/iconcss.png">
+             <h1 id="dnih"> Hello </h1>
+           <!-- <h2 id="log">Daniel Companies</h2>-->
+        </div>
+        <div class="button-container">
+              <button class="button" onclick="showOptions()"><img id="options1" src="image/options.png"></button>
+              <div id="options" class="hidden-options">
+                <a href="#" class="sub-button">Home</a><br><br><br>
+                <a href="#" class="sub-button">About</a><br><br><br>
+                <a href="#"class="sub-button">Contact</a><br><br><br>
+              </div>
+            </div>
+        <script>
+            function showOptions() {
+              var options = document.getElementById("options");
+              options.classList.toggle("hidden-options");
+            }
+        </script>
+        <h2 id="h22">Welcome To Your Space</h2>
+        <div id="div2">
+            <img id="img2" src="image/347408783_252671107299145_5177380580313157443_n.png">
+            
+            <div id="body1">
+                <h4 id="h44">Welcome To DaniGenius Technologies </h4>
+                <p id="parg">
+                    is a dynamic and innovative company at the forefront of web development and digital marketing solutions. We specialize in crafting captivating websites that not only showcase your brand but also engage your target audience. Our expert team combines cutting-edge technologies with creative design to deliver exceptional user experiences. With our comprehensive page management services, we ensure that your online presence remains up-to-date, optimized, and visually appealing. Additionally, our skilled team excels in creating impactful social media advertising campaigns that drive results and boost brand visibility. At DaniGenius Technologies, we are committed to helping businesses thrive in the digital landscape through our expertise and customized solutions.
+                </p>
+           
+            
+             </div>
+             
+         </div>
+        
+         <div class="image-container">
+            <img class="first-image" src="image/347395602_236695738965455_8558604339805548724_n.jpg">
+            <img class="second-image" src="image/laaa.png" onclick="company()">
+         </div>
+         <script>
+            function company(){
+                var links = 'https://www.pcard.click/profile/B3jbDr39';
+                window.open(links);
+            }
+         </script>
+
+         <div class="image2">
+            <img id="issam" src="image/qrissam.png" >
+            <img id="qissam" src="image/logoissam.png" onclick="issamlink()">
+         </div>
+         <div class="image3">
+            <img id="issam" src="image/laaa.png">
+            <img id="qissam" src="image/Akrem.png" onclick="dnnnn()">
+         </div>
+         <div class="image4">
+            <img id="issam" src="image/qala.png">
+            <img id="qissam" src="image/ala.png" onclick="alalal()">
+         </div>
+        <script>
+            function issamlink(){
+                window.open('https://www.pcard.click/profile/9Z62xxZ5',"_blank");
+            }
+        </script>
+        <script>
+            function alalal(){
+                window.open('https://www.pcard.click/profile/V3lkaEZY',"_blank");
+            }
+        </script>
+         <script>
+            function dnnnn(){
+                window.open('https://www.pcard.click/profile/B3jbDr39',"_blank");
+            }
+        </script>
+       
+       <div class="names">
+            <h4 class="issamhh">Issam Iso</h4>
+            <h4 class="dnihh">Dani</h4>
+            <h4 class="alahh" >Alaeddine</h4>
+       </div>
+
+
+
+        <div id="end">
+            
+        </div>
+        <div id="dniend">
+            <h5 id="h5end">Devloped by Dani,Issam Iso, Alaeddine Team</h5>
+            <h5 id="h5end">Copyright © 2023/24 DGT Inc.All Rights Reserved</h5>
+        </div>
+        
+    </body>
+    
+</html>
+    
+    
+    
