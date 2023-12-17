@@ -35,6 +35,7 @@ strong{
 }
 body{
     background-color: black;
+    overflow-x: hidden;
    /* background: linear-gradient(to right, #000b21, #060d38);*/
 }
 header{
