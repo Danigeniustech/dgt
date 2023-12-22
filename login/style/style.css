@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    color: white;
+}
+
+body{
+    background-color: black;
+   /* background: linear-gradient(to right, #000b21, #060d38);*/
+}
+header{
+    
+    
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: black;
+    padding-top: 5px;
+    
+    position: fixed;
+    box-shadow: 0 0 5px #3a3a3a;
+    z-index: 2;
+    
+    
+}
+header #options{
+    width: 50px;
+    margin-right: 5px;
+    margin-left: auto;
+    text-align: center;
+    
+    
+
+    
+    
+    
+    
+    
+}
+#options hr{
+    border: 1.5px solid #08FE01;
+    border-radius: 2px;
+    margin: 10px;
+    transition: border 0.3s ease;
+    transition: transform 0.5s;
+    width: 35px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#ro1,#ro2{
+    display: none;
+    transition: transform 0.5s;
+}
+
+header #logo{
+    
+    width: 120px;
+    margin-left: 0;
+    margin-right: auto;
+    padding:2px;
+    
+    
+    
+}
+#logo img{
+    width:100%;
+    
+    width: 100%;
+}
+#showoptions{
+    margin-top: 50px;
+    position: fixed;
+    transition:left 0.3s;
+    left: -5000px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    z-index: 2;
+    
+}
+#showoptions a{
+    
+    display: block;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.7s ease;
+}
+#showoptions a:hover{
+    transform: scale(1.5);
+}
+#showoptions hr{
+    width: 80%;
+    margin: auto;
+    height: 1.5px;
+    border: none;
+    background-color: rgba(1, 1, 219, 0.2);
+}
+#showoptionsdv{
+    background-color: #06FE02;
+    padding: 3px;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+}
+#login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    
+}
+#login input{
+    display: block;
+    margin: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px;
+    border: none;
+    background: none;
+    border: 1px solid rgb(208, 207, 207);
+    width: 300px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+#login button{
+    color: black;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    font-size: 20px;
+    border: 3px solid rgb(86, 86, 86);
+    color: #3a3a3a;
+    background-color: rgb(226, 223, 223);
+}
+#login h2{
+    margin: 5px;
+    display: flex;
+    padding: 5px;
+    
+}
+#ul{
+    text-align: center;
+    width: 100%;
+}
+#ul hr{
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 5px;
+}
+label{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px;
+    display: flex;
+}
+#login strong{
+    display: flex;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    font-size: 19px;
+}
+#hrw{
+    width: 327px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 5px;
+}
+#forget{
+    margin-left: 4px;
+    color: azure;
+}
+#fg{
+    display: flex;
+}
+#fg img{
+    width: 40px;
+}
+#fg div{
+    border: 2px solid rgb(149, 146, 146);
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    padding: 1px;
+    cursor: pointer;
+    
+}
+#fgg{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 9px;
+    margin-left: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
